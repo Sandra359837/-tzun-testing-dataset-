@@ -1,1 +1,16 @@
+Test Case: maya_de_la_cruz_test_001
+Persona: Early-career communications/media student
+Run ID: tone_matrix_stem_test_001
+Prompt Version: v1.2 + tone_matrix + stem_rotation
 
+Output Score: 4.0
+Tone Summary: bold
+Tone Experience: neutral
+Consistency Score: 70
+
+Bracketed Items: 3
+Hallucinated Responsibilities: 1
+Harmonization Triggered: ✅ Yes
+
+Training Value: ⭐ High
+Use in Demo: ✅ Yes
