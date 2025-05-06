@@ -1,0 +1,49 @@
+{
+  "run_id": "tone_matrix_stem_test_001",
+  "last_prompt_tested": "v1.2 + tone_matrix + stem_rotation",
+  "persona_context": "early-career communications/media student",
+  "final_resume_output": "...",
+  "output_score": 4,
+  "flagged_issues": [
+    "Bracketed skills ([Platform Growth Tactics], [Content Performance Tracking]) inferred from JD context",
+    "[Supported content direction by aligning influencer partnerships with artist branding objectives.] inferred from JD"
+  ],
+  "tone_score_per_section": {
+    "summary": "bold",
+    "experience": "neutral",
+    "consistency_rating": 70
+  },
+  "bracketed_item_log": [
+    {
+      "text": "[Platform Growth Tactics]",
+      "source": "inferred",
+      "section": "skills",
+      "suggestion_class": "skill",
+      "approved": false
+    },
+    {
+      "text": "[Content Performance Tracking]",
+      "source": "inferred",
+      "section": "skills",
+      "suggestion_class": "skill",
+      "approved": false
+    },
+    {
+      "text": "[Supported content direction by aligning influencer partnerships with artist branding objectives.]",
+      "source": "inferred",
+      "section": "experience - Hallwood Media",
+      "suggestion_class": "responsibility",
+      "approved": false
+    }
+  ],
+  "tone_harmonization_suggestions": [
+    {
+      "original_bullet": "- Identified and collaborated with influencers across various platforms, aligning promotional efforts with individuals whose audience was a strong match for music releases.",
+      "tone_matched_alternative": "- Championed influencer collaborations across key platforms to amplify artist reach and drive campaign impact."
+    },
+    {
+      "original_bullet": "- Contributed to the creation of comprehensive timelines for album and music releases, ensuring timely and strategic promotional activities.",
+      "tone_matched_alternative": "- Spearheaded timeline coordination for high-impact music releases, ensuring strategic alignment of promotional activities."
+    }
+  ]
+}
